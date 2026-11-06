@@ -1,0 +1,9 @@
+[19-Dec-2025 10:17:18 UTC] PHP Warning:  require_once(/home/tourismh/cakesewa.com/public/index.php): failed to open stream: No such file or directory in /home/tourismh/cakesewa.com/server.php on line 21
+[19-Dec-2025 10:17:18 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/tourismh/cakesewa.com/public/index.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/tourismh/cakesewa.com/server.php on line 21
+[08-Jan-2026 09:34:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tourismh_fresh.languages' doesn't exist in /home/tourismh/fresh.cakesewa.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:368
+Stack trace:
+#0 /home/tourismh/fresh.cakesewa.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(368): PDO->prepare('select * from `...')
+#1 /home/tourismh/fresh.cakesewa.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(705): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 /home/tourismh/fresh.cakesewa.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(672): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /home/tourismh/fresh.cakesewa.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(376): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /home/tourismh/fresh.cakesewa.com/vendor/laravel/f in /home/tourismh/fresh.cakesewa.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
